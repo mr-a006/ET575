@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    char c;
+    cout << "Enter a letter: ";
+    cin >> c;
+
+    int i = c;
+
+    cout << i << "\n";
+
+    int j;
+    cout << "Enter a integer: ";
+    cin >> j;
+
+    bool b = static_cast<bool>(j);
+
+    cout << b << endl;
+
+    return 0;
+}
