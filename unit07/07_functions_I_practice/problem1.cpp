@@ -16,7 +16,7 @@ int main() {
 int square(int n) {
     return n*n;
 }
-int min(int a, int b){
+int min(int a, int b) {
     if(a>b)
         return b;
     else
